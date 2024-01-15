@@ -34,7 +34,6 @@ function App() {
         <button onClick={() => addCash(Number(prompt()))}>Пополнить счёт</button>
         <button onClick={() => removeCash(Number(prompt()))}>Снять со счёта</button>
         <button onClick={() => addCustomer(prompt())}>Добавить клиента</button>
-        <button onClick={() => removeCash(Number(prompt()))}>Удалить клиента</button>
       </div>
       {customers.length > 0 
       ? <div>
